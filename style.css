@@ -14,8 +14,8 @@
 
 .final-score:focus { outline: none; }
 
-#dice-1 { top: 120px; }
-#dice-2 { top: 250px; }
+.dice-1 { top: 120px; }
+.dice-2 { top: 250px; }
 
 
 * {
@@ -32,7 +32,8 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(122, 116, 22, 0.4), rgba(58, 17, 126, 0.4)), url("https://it6ql43qfnk3gw1pb1zpmnwj-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/Peppa-Pig-Muddy-Puddles-862x485.jpg");
+    
     background-size: cover;
     background-position: center;
     font-family: Lato;
