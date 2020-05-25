@@ -179,4 +179,5 @@ i {
 .winner { background-color: #4ca3eb; }
 .winner .player-name { font-weight: 300; color: rgb(222, 54, 54); }
 .winner .player-current-box {background-color: rgb(146, 20, 20);}
-.winner .player-score{color: rgb(70, 18, 167); font-weight: 500px;}
+.winner .player-score{color: rgb(70, 18, 167);
+ font-weight: 500px;}
