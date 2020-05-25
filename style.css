@@ -48,7 +48,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(221, 171, 166);
+    background-color: rgb(187, 156, 172);
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
