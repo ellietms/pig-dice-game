@@ -32,7 +32,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(25, 119, 226, 0.4), rgba(58, 17, 126, 0.4));
+    background-image: linear-gradient(rgba(251, 239, 68, 0.4), rgba(211, 66, 9, 0.4) ,rgba(5, 235, 101, 0.4) );
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -176,5 +176,7 @@ i {
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
-.winner { background-color: #f7f7f7; }
-.winner .player-name { font-weight: 300; color: #EB4D4D; }
+.winner { background-color: #4ca3eb; }
+.winner .player-name { font-weight: 300; color: rgb(222, 54, 54); }
+.winner .player-current-box {background-color: rgb(146, 20, 20);}
+.winner .player-score{color: rgb(70, 18, 167); font-weight: 500px;}
