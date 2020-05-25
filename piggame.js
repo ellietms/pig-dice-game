@@ -30,9 +30,10 @@ document.querySelector(".btn-hold").addEventListener("click",function(){
     // Update the UI
     document.querySelector("#score-" + activePlayer).textContent =  scores[activePlayer];
     let input = document.querySelector(".final-score").value;
+    let winningScore;
     // undefined , 0 , null or "" are COERCED false
     if(input){
-       let winningScore = input; 
+        winningScore = input; 
     }
     else{
         winningScore = 100;
