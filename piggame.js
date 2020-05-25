@@ -30,8 +30,8 @@ document.querySelector(".btn-hold").addEventListener("click",function(){
     // Update the UI
     document.querySelector("#score-" + activePlayer).textContent =  scores[activePlayer];
     let input = document.querySelector(".final-score").value;
-    let winningScore;
     // undefined , 0 , null or "" are COERCED false
+    let winningScore;
     if(input){
         winningScore = input; 
     }
@@ -39,7 +39,7 @@ document.querySelector(".btn-hold").addEventListener("click",function(){
         winningScore = 100;
     }
     //check if player won the game 
-    if(scores[activePlayer] >= 100){
+    if(scores[activePlayer] >= winningScore){
         document.querySelector("#name-" + activePlayer).textContent = "Winner!";
         document.querySelector("#dice-1").style.display = "none";
         document.querySelector("#dice-2").style.display = "none";
